@@ -2,9 +2,9 @@
 #include <chrono>
 #include <thread>
 #include <iostream>
-#include "snake.h"
-#include "apple.h"
-#include "utils.h"
+#include "include/snake/snake.h"
+#include "include/apple/apple.h"
+#include "include/utils/utils.h"
 
 void delay(std::chrono::milliseconds milliseconds)
 {
